@@ -57,5 +57,6 @@ The columns will become the header name formated as follows:
 - capitalized
 - non-alphanumeric characters become '_'
 
-One extra column will be added 'AUDIT_CREATE_UTC_DATETIME'. This is one utc datetime per file. This way you can distinguish 
-per file based on the audit date.
+Two extra column will be added:
+- 'AUDIT_CREATE_UTC_DATETIME': This is one utc datetime per file.
+- 'CSV_FILE_NAME': The name of the csv file that was load excluding the directory.
