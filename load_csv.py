@@ -15,7 +15,7 @@ def main(args):
                     server_type='microsoft',
                     server_name=app_arg.server_name,
                     database_name=app_arg.database_name,
-                    schema_name=app_arg.table_schema,
+                    schema_name=app_arg.schema_name,
                     table_name=app_arg.table_name
                 ),
         use_existing=True,
