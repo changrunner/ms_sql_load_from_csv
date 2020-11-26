@@ -13,7 +13,7 @@ pytest = ">=6.1.2"
 
 [packages]
 zeppos-logging = ">=1.0.6"
-zeppos-csv = ">=0.0.16"
+zeppos-csv = ">=0.0.19"
 
 [requires]
 python_version = "3.8"

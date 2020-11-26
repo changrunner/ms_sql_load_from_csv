@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "03263a4422e63cdb1b080889a5e6f7eaae838804c26bb9ab163ff9aedffd2f1e"
+            "sha256": "48f810e434e460096a52ad4e716cbe1fda4085b54d455e686a20ed7450a5d9f4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -199,10 +199,10 @@
         },
         "zeppos-bcpy": {
             "hashes": [
-                "sha256:1c647daeab7972c09d57ad775e5701ace364d40d9ee44c11c7cf36fbfd34c6f9",
-                "sha256:9a1cd489d3b57126dfecb212f133228ee3f29bb2f9f170195b45e0504da5ad1b"
+                "sha256:2447a22648fd72fb6db682ab86e24f1c05a7f1ce3342e9595d592d8e19d19d14",
+                "sha256:4a8d2015dd14e98000c2fd1c30bfa55b1578e3065e33660185a01e5ab37439ef"
             ],
-            "version": "==0.0.22"
+            "version": "==0.0.23"
         },
         "zeppos-core": {
             "hashes": [
@@ -213,11 +213,11 @@
         },
         "zeppos-csv": {
             "hashes": [
-                "sha256:189d45d3c9e2ec59d5c2008fb4184b3abb9c9b3f80d2cb890e719666becb13ec",
-                "sha256:b3421396517f01f0710765f6c01b665374da331d9bc32a060de98ddcb77f9385"
+                "sha256:709e8ae411c09f4b0ebc63eceb148c2a6e2304651124f9fe6e97107e2a3e041d",
+                "sha256:788299a6f9d52a020b44a5f8077ac2e1119c51d28aa49cba43d96fd54e6d39b0"
             ],
             "index": "pypi",
-            "version": "==0.0.16"
+            "version": "==0.0.19"
         },
         "zeppos-data-manager": {
             "hashes": [

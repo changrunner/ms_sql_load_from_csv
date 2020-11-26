@@ -18,6 +18,7 @@ def main(args):
                     schema_name=app_arg.table_schema,
                     table_name=app_arg.table_name
                 ),
+        use_existing=True,
         mark_as_processed=True
     )
 
