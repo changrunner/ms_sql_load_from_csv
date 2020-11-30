@@ -9,6 +9,7 @@ class AppArg:
         parser.add_argument('-m', '--schemaname')
         parser.add_argument('-t', '--tablename')
         parser.add_argument('-r', '--csvdirectory')
+        parser.add_argument('-p', '--separator')
         argp = parser.parse_args(args)
 
         self.server_name = argp.servername
@@ -16,12 +17,14 @@ class AppArg:
         self.schema_name = argp.schemaname
         self.table_name = argp.tablename
         self.csv_directory = argp.csvdirectory
+        self.separator = argp.separator
 
         AppLogger.logger.debug(f"ARG: server_name: {self.server_name}")
         AppLogger.logger.debug(f"ARG: database_name: {self.database_name}")
         AppLogger.logger.debug(f"ARG: schema_name: {self.schema_name}")
         AppLogger.logger.debug(f"ARG: table_name: {self.table_name}")
         AppLogger.logger.debug(f"ARG: csv_directory: {self.csv_directory}")
+        AppLogger.logger.debug(f"ARG: seperator: {self.separator}")
 
 
 

@@ -19,7 +19,8 @@ def main(args):
                     table_name=app_arg.table_name
                 ),
         use_existing=True,
-        mark_as_processed=True
+        mark_as_processed=True,
+        sep=app_arg.separator
     )
 
 

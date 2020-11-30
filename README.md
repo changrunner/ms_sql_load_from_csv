@@ -26,18 +26,7 @@ pipenv install
 
 - from a windows command prompt or powershell run
 ```
-pipenv run python load_csv.py -s localhost\sqlexpress -d master -m dbo -t test_table -r c:\temp\test
-```
-
-- query.sql example for c:\temp\query.sql
-```
-set nocount on  -- make sure the last statement is going to be the select statement
-set transaction isolation leve read uncommitted -- Global with nolock
-
-drop table if exists #tmp
-
-select TABLE_SCHEMA, TABLE_NAME into #tmp from information_schema.tables
-select TABLE_SCHEMA, TABLE_NAME from #tmp
+pipenv run python load_csv.py -s localhost\sqlexpress -d master -m dbo -t test_table -r c:\temp\test -p |
 ```
 
 This is a very simple example that uses a temp table as this is needed in more complex queries.
@@ -50,6 +39,7 @@ The "set nocount on" is a very important statement to ensure the python pandas f
 -m or --schemaname: schema name
 -t or --tablename: table name
 -r or --csvdirectory: directory to the csv location
+-p or --separator: separator used in the csv file
 ```
 ## result
 This application will load the data into a table as specified in the application arguments.
